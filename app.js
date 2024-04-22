@@ -16,6 +16,14 @@
 // var type = new Date();
 // console.log(type.toString().slice(0,15));
 
-var date = new Date();
-var days = ["SUN","MON","TUE","WED","THUR","FRI","SAT"];
-console.log(days[date.getDay()]);
+// var date = new Date();
+// var days = ["SUN","MON","TUE","WED","THUR","FRI","SAT"];
+// console.log(days[date.getDay()]);
+
+
+// var date = new Date("18 jan, 2005");
+// var days = ["SUN","MON","TUE","WED","THUR","FRI","SAT"];
+// console.log(days[date.getDay()]);
+
+
+console.log(new Date("2005/01/18"));
